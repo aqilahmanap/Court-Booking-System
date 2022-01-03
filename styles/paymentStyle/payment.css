@@ -1,0 +1,66 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-view-payment {
+  padding: 12px;
+  background: transparent;
+  border: 1px solid green;
+  color: lightgreen;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  outline: none;
+}
+
+.btn-view-payment:hover {
+  background-color: lawngreen;
+  color: black;
+}
+
+textarea {
+  resize: none;
+  margin-left: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}
+
+input {
+  display: inline;
+  margin-left: 50px;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  font-family: sans-serif;
+}
+
+label {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+hr {
+  border-width: 1px;
+}

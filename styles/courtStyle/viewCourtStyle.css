@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #ddd;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+   border: 2px solid #ddd;
+  padding: 8px;
+}
+
+
+th {
+  background-color: maroon;
+  color: white;
+}
+
+/* Set a style for the submit button */
+.addbtn {
+  background-color:  black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.addbtn:hover {
+  opacity: 1;
+}
+
+/* Set a style for the submit button */
+.backbtn {
+  background-color:  grey;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+.backbtn:hover {
+  opacity: 1;
+}
